@@ -1,10 +1,10 @@
 <?php
 class conexion{
     private $conexion;
-    private $server="localhost";
-    private $user="root";
-    private $pass="";
-    private $database='teejutji';
+    private $server="baywixmcf8hzckzdxcgd-mysql.services.clever-cloud.com";
+    private $user="uaynlczvq1a5xsyo";
+    private $pass="vG9H1ST3ZiDKmqTl0uhh";
+    private $database='baywixmcf8hzckzdxcgd';
 
     function __construct(){
         $this->conexion=@new mysqli($this->server,$this->user,$this->pass,$this->database); 
